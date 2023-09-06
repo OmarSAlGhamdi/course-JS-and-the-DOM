@@ -5,6 +5,18 @@
 //     document.querySelector('#contain-all').firstElementChild.remove();
 // });
 
+/* document.addEventListener('click', function(){
+    const firstHeading = document.querySelector('h1');
+    // firstHeading.style.backgroundColor = 'red';
+}); */
+
+
+
+// ⬇︎ This is to test the DOMContentLoaded event ⬇︎
+document.addEventListener('DOMContentLoaded' , (event) => {
+    console.log("DOM fully loaded and Parsed");
+});
+
 
 
 
@@ -34,18 +46,11 @@ document.body.appendChild(myCustomDiv);
 
 
 
-
-
-
-
-
-
-
 // Event Delegation : 
 // ✅ Next code is the best way in efficiency in Memoney and Code ✅
 
 
-const myCustomDiv = document.createElement('div');
+/* const myCustomDiv = document.createElement('div');
 
 //  ⬇︎ one function ⬇︎
 function respondToTheClick(evt) {
@@ -63,7 +68,7 @@ document.body.appendChild(myCustomDiv);
 
 
 //  ⬇︎ One listener ⬇︎
-myCustomDiv.addEventListener('click', respondToTheClick); 
+myCustomDiv.addEventListener('click', respondToTheClick);  */
 
 
 
